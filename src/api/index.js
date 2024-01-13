@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 export const requests = axios.create({
-  baseURL: 'https://vote.zzdx.gay/api',
-  // baseURL: 'http://localhost:5173/api',
+  // baseURL: 'https://vote.zzdx.gay/api',
+  baseURL: 'http://localhost:5173/api',
   timeout: 20 * 1000
 })
 
